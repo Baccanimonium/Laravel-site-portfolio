@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="compass-library">
+    <CLASSES>
+      <root url="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/bootstrap-sass-3.3.7" />
+      <root url="file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

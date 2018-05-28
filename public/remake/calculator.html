@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>calculator</title>
+</head>
+
+<body>
+<header class="header" id="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-5 col-12 bg">
+                <a href="#" class="header-logo-block">
+                    <img src="img/logo-2.png" alt="" class="img-fluid img-logo-header">
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-7 col-12">
+                <div class="row header-top-block">
+                    <div class="col-lg-6 col-md-12  header-top-item">
+                        <div class="header-icon marker">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>г.Тюмень, ул.Пермякова 3Б, офис 408
+                    </div>
+
+                    <!--<div class="col-lg-4 col-md-6 header-top-item center-item">-->
+                    <!--<div class="header-icon phone">-->
+                    <!--<i class="fa fa-phone" aria-hidden="true"></i>-->
+                    <!--</div>-->
+                    <!--<a class="header-phone-link" href="tel:+74955300500"><span class="text-min">+7 (3452)</span> 99-55-33</a>-->
+                    <!--</div>-->
+
+                    <!--<div class="col-lg-2 col-md-6 header-top-item flex-end">-->
+                    <!--<a href="" class="button min">-->
+                    <!--Заказать звонок-->
+                    <!--</a>-->
+                    <!--</div>-->
+
+                    <div class="block-call col-lg-6  col-md-12">
+                        <div class="header-top-item phone-block">
+                            <div class="header-icon phone">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <a class="header-phone-link" href="tel:+74955300500"><span class="text-min">+7 (3452)</span> 99-55-33</a>
+                        </div>
+                        <div class="header-top-item">
+                            <a href="" class="button min" data-toggle="modal" data-target="#exampleModal">
+                                Заказать звонок
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom-block">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Портфолио</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Услуги</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Цена</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Блог</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="calculator-block">
+    <div class="container">
+        <div class="row">
+            <div class="ol-lg-12 col-md-12">
+                <div class="title-big">
+                    Расчет стоимости сайта
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-xl-4 col-lg-6">
+                <div class="calculator-item">
+                    <div class="calculator-title">
+                        Выберите тип сайта:
+                    </div>
+                    <div class="border-left">
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Landing Page</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Интернет-магазин</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Сайт компании</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Каталог</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Новостной портал</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Блог</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Уникальный проект</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator-item">
+                    <div class="calculator-title">
+                        Выберите CMS:
+                    </div>
+                    <div class="border-left">
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">1C — Bitrix</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">WordPress</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Еще вид</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-6">
+                <div class="calculator-item">
+                    <div class="calculator-title">
+                        Дизайн:
+                    </div>
+                    <div class="border-left">
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Логотип</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Фирменный стиль</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Индивидуальный дизайн</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Баннер</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator-item">
+                    <div class="calculator-title">
+                        Функционал
+                    </div>
+                    <div class="border-left">
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Настройка почты</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Рагистрация на сайте</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Онлайн чат</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Платежная система</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Фильтр товаров</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Интеграция с 1С</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-12 flex-row">
+                <div class="calculator-item">
+                    <div class="calculator-title">
+                        Верстка:
+                    </div>
+                    <div class="border-left">
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Адаптивная</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Слайдер</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Интерактивность</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Геопривязка</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Мультиязычность</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator-item mr0">
+                    <div class="calculator-title">
+                        Продвижение(в месяц)
+                    </div>
+                    <div class="border-left">
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">SEO — оптимизация</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">SMM</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Яндекс.Директ</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Google AdWords</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                        <div class="calculator-option-block">
+                            <div class="calculator-option-form">
+                                <label class="calculator-option-form-label">
+                                    <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                                    <span class="checkbox-custom"></span>
+                                    <span class="label">Резервное копирование</span>
+                                </label>
+                            </div>
+                            <div class="price-block">
+                                от 10 000 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="calculator-price">
+                    Итого: 25 900 р.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form-main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pr0">
+                <div class="border-form-right">
+                    <div class="title-form">
+                        Узнайте больше
+                    </div>
+                    <div class="form-description mr">
+                        У вас остались вопросы? Или не знаете что нужно для Вашего бизнеса? Оставьте свои контактные данные и мы Вам подскажем какой вид сайта подойдет именно Вам!
+                    </div>
+
+                    <form action="" class="form-block">
+                        <div class="input-group">
+                            <input type="text" name="NAME" class="form-main-input" placeholder="Ваше имя">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="PHONE" class="form-main-input" placeholder="Номер телефона">
+                        </div>
+                        <button type="submit" class="button-form" data-toggle="modal" data-target="#exampleModal">Заказать звонок</button>
+                        <label class="form-name-checkbox">
+                            <input type="checkbox"  name="option1" value="a1" class="checkbox">
+                            <span class="checkbox-custom"></span>
+                            <span class="label">Нажимая кнопку “Заказать звонок” Вы соглашаетесь<br>
+с политикой конфиденциальности</span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="title-form tar">
+                    Скачайте расчет
+                </div>
+                <div class="form-description tar">
+                    Вы можете абсолютно бесплатно скачать расчет стоимости сайта. Без заполнения  любой информации. Информация предоставляется  исключительно в ознокомительных целях. Цены не являютя окончательными.
+                </div>
+                <div class="button-block">
+                    <a href="" class="button-download-calculation">Скачать  расчет</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer-block" id="footer-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-12">
+                <div class="footer-item">
+                    <div class="logo-footer">
+                        <img src="img/logo-footer.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="title-footer">
+                        Мы в соцсетях
+                    </div>
+                    <div class="social-block">
+                        <a href="" class="social-item">
+                            <i class="fa fa-vk" aria-hidden="true"></i>
+                        </a>
+                        <a href="" class="social-item">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="" class="social-item">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-item">
+                    <div class="title-footer">
+                        Контакты
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-icon marker">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer-contact-text">г.Тюмень, ул.Пермякова 3Б, офис 408</div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <div class="footer-icon phone">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <a class="footer-phone-link" href="tel:+74955300500"><span class="text-min">+7 (3452)</span> 99-55-33</a>
+                    </div>
+                    <a href="" class="button button-footer" data-toggle="modal" data-target="#exampleModal">
+                        Заказать звонок
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <div class="footer-item pos-abs">
+                    <div class="title-footer">
+                        Статьи в блоге
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-12 col-md-12">
+                            <div class="footer-article-block">
+                                <div class="footer-article-img-block">
+                                    <img src="img/footer-article-img.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="footer-article-text">
+                                    Как мы создавали сайт
+                                    магазину обуви “Randi” смотрите подробности дальше по ссылке. и еще описание сайта
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-12 col-md-12">
+                            <div class="footer-article-block">
+                                <div class="footer-article-img-block">
+                                    <img src="img/footer-article-img.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="footer-article-text">
+                                    Как мы создавали сайт
+                                    магазину обуви “Randi” смотрите подробности дальше по ссылке. и еще описание сайта
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Оставьте заявку<br>
+                    <span> и мы Вам перезвоним</span>
+                </h5>
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="input-group justify-content-center">
+                <input type="text" name="NAME" class="form-control" placeholder="Ваше имя">
+
+            </div>
+            <div class="input-group justify-content-center">
+                <input type="text" name="PHONE" class="form-control" placeholder="Номер телефона">
+            </div>
+            <button type="submit" class="button-primary"> Отправить заявку</button>
+            <div class="modal-footer">
+                <div class="text-confidentiality">
+                    Заполняя данную форму, Вы соглашаетесь с политикой конциденциальности сайта.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/0ddad71e7a.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/general.js"></script>
+</body>
+</html>

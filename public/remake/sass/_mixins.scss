@@ -1,0 +1,14 @@
+@import "variable";
+
+
+@mixin transition() {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@mixin ls($fz) {
+    letter-spacing: $fz*10px/1000px;
+}
